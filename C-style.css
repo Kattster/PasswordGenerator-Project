@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cornflowerblue;
+    color: white;
+    /* Flexbox */ 
+    /* display contents vertically */
+    display: flex;
+    /* Display contents horizontally */
+    justify-content: center;
+    align-items: center;
+    /* Settint the height to 100vh so the div will be centeres vertically in hte browser window (AKA viewport) */
+    height: 100vh;
+    /* Adding padding to the div container to the div container is NOT rihgt up against the edge of the viewport on smaller screen sizes */
+    padding: 25px;
+}
+h2{
+    /* Top Right / Left Bottom */
+    margin: 10px 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Cabin Sketch';
+}
+
+.btn {
+    background-color:blue;
+    /* Removes the default button border */
+    border: none;
+    color: white;
+    cursor: default;
+    padding: 8px 12px;
+    font-family: 'IM Fell French Canon', serif;
+    
+}
+
+.option {
+    display:flex;
+    justify-content: space-between;
+}
+
+#container {
+    background-color: #639;
+    padding: 15px;
+    width: 350px;
+    border: 5px;
+    font-family: 'Life Savers', cursive;
+}
+
+#result-container {
+    background-color: #243119;
+    height: 50px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 5px 10px 10px;
+    /* Flex used to position the span and button elements */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#clipboard {
+    font-size: 20px;
+}
+#generate {
+    font-size: 16px;
+    width: 100%;
+    text-transform: uppercase;
+}
